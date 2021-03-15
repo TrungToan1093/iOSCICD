@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CICD_Example' do
+  pod 'CICD', :path => '../'
+
+  target 'CICD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
