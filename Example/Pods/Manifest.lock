@@ -1,13 +1,13 @@
 PODS:
   - CICD (0.1.0)
-  - SwiftLint (0.43.1)
+  - SwiftLint (0.43.0)
 
 DEPENDENCIES:
   - CICD (from `../`)
   - SwiftLint
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - SwiftLint
 
 EXTERNAL SOURCES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CICD: 998d1c22cc4860a95163ea93a2bec0a396fae9ed
-  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  SwiftLint: 0c645fdc6feed3e390c1701ab3cc669f88b42752
 
 PODFILE CHECKSUM: dbebc85ce70427e779d0a1ca51b9048640416802
 
-COCOAPODS: 1.7.2
+COCOAPODS: 1.10.0
