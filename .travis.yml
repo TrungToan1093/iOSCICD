@@ -1,1 +1,8 @@
-
+language: objective-c
+osx_image: xcode11.2
+xcode_project: iOSCICD.xcodeproj # path to your xcodeproj folder
+xcode_scheme: iOSCICD
+xcode_destination: platform=iOS Simulator, OS=11.0, name:iPhone 8 Plus
+before_install:
+  - bundle install
+  - bundle exec pod install
